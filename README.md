@@ -11,7 +11,7 @@ This guide provides step-by-step instructions to install PostgreSQL on a Windows
 
 ---
 
-## 📥 Step 1: Download PostgreSQL
+## Step 1: Download PostgreSQL
 
 1. Visit the official PostgreSQL download page:  
    👉 https://www.postgresql.org/download/windows/
@@ -22,7 +22,7 @@ This guide provides step-by-step instructions to install PostgreSQL on a Windows
 
 ---
 
-## 🧰 Step 2: Run the Installer
+## Step 2: Run the Installer
 
 1. Run the downloaded `.exe` file.
 2. Click **Next** through the setup screens.
@@ -34,20 +34,20 @@ This guide provides step-by-step instructions to install PostgreSQL on a Windows
 
 ---
 
-## 🔐 Step 3: Set Superuser Password
+## Step 3: Set Superuser Password
 
 - Set a strong password for the default PostgreSQL user: `postgres`.
 - **IMPORTANT:** Save this password securely. You'll need it to access the database.
 
 ---
 
-## 🔌 Step 4: Choose Port Number
+## Step 4: Choose Port Number
 
 - Default is `5432`. You can leave it as is unless you're running multiple databases.
 
 ---
 
-## 🌍 Step 5: Set Locale and Install
+## Step 5: Set Locale and Install
 
 1. Leave the locale to default or set according to your region.
 2. Click **Next** and then **Install**.
@@ -55,7 +55,7 @@ This guide provides step-by-step instructions to install PostgreSQL on a Windows
 
 ---
 
-## 🧱 Step 6: Add PostgreSQL to System PATH
+## Step 6: Add PostgreSQL to System PATH
 
 1. Navigate to:
 
@@ -73,7 +73,7 @@ This guide provides step-by-step instructions to install PostgreSQL on a Windows
 
 ---
 
-## 🧪 Step 7: Verify Installation
+## Step 7: Verify Installation
 
 1. Open **Command Prompt** and run:
 
@@ -96,7 +96,7 @@ This guide provides step-by-step instructions to install PostgreSQL on a Windows
 
 ---
 
-## ⚙️ Optional: Fix Console Encoding Warning
+## Optional: Fix Console Encoding Warning
 
 If you see this warning:
 
@@ -112,7 +112,7 @@ chcp 1252
 
 ---
 
-## 📦 Stack Builder (Optional)
+## Stack Builder (Optional)
 
 After installation, you may run **Stack Builder** to install:
 
@@ -125,7 +125,7 @@ After installation, you may run **Stack Builder** to install:
 
 ---
 
-## 🧩 Use with Next.js and Prisma (Bonus)
+## Use with Next.js and Prisma (Bonus)
 
 Install Prisma:
 
@@ -149,13 +149,13 @@ npx prisma generate
 
 ---
 
-## ✅ You're Ready!
+## You're Ready!
 
 PostgreSQL is now installed and ready to use for local development.
 
 ---
 
-## 📚 Resources
+## Resources
 
 - Official docs: https://www.postgresql.org/docs/
 - Prisma: https://www.prisma.io/docs
