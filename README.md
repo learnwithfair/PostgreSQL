@@ -1,4 +1,3 @@
-# PostgreSQL Installation Guide (Windows)
 
 [![Youtube][youtube-shield]][youtube-url]
 [![Facebook][facebook-shield]][facebook-url]
@@ -7,9 +6,10 @@
 
 Thanks for visiting my GitHub account!
 
-This guide provides step-by-step instructions to install PostgreSQL on a Windows system, including optional setup for development with Node.js, Prisma, and Next.js.
+# PostgreSQL Installation Guide (Windows)
 
----
+> This guide provides step-by-step instructions to install PostgreSQL on a Windows system, including optional setup for development with Node.js, Prisma, and Next.js.
+
 
 ## Step 1: Download PostgreSQL
 
